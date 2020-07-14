@@ -1,10 +1,11 @@
 <template>
-  <section>Posts</section>
+  <section>Posts {{id}}</section>
 </template>
 
 <script>
 export default {
-  name: 'Posts'
+  name: 'Posts',
+  props: ['id']
 }
 </script>
 
