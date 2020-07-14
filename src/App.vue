@@ -3,14 +3,15 @@
 </template>
 
 <script>
-import { reactive,ref } from 'vue'
+import { reactive, ref } from 'vue';
+
 export default {
   name: 'App',
-  setup(){
+  setup() {
     const blog = reactive({
-      title:'Vue Blog',
-    })
-    return { blog }
-  }
-}
+      title: 'Vue Blog',
+    });
+    return { blog };
+  },
+};
 </script>

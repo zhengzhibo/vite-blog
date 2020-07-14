@@ -1,14 +1,13 @@
 <template>
-  <section>Posts {{id}}</section>
+  <section>Posts {{ id }}</section>
 </template>
 
 <script>
 export default {
   name: 'Posts',
-  props: ['id']
-}
+  props: ['id'],
+};
 </script>
 
 <style>
-
 </style>
