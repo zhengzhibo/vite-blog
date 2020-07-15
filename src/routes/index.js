@@ -4,7 +4,6 @@ import Home from '../views/Home.vue';
 import Posts from '../views/Posts.vue';
 
 const routes = [
-  { path: '/home', redirect: '/' },
   {
     path: '/',
     name: 'home',
